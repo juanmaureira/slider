@@ -1,2 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,1);
+}
 
+.slider{
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
 
+.slider .image{
+    width: 99%;  
+    height: 750px;
+    margin: 10px auto 10px;
+}
+
+.text{
+    position: absolute;
+    color: rgba(255,255,255,1);
+    font-size: 75px;
+    top:35%;
+    left:33%;
+}
